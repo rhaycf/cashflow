@@ -6,5 +6,9 @@ A API segue o padrão **REST**, disponibilizando endpoints para as operações d
 
 Dentre os pacotes NuGet utilizados, o **AutoMapper** facilita o mapeamento entre objetos da aplicação, reduzindo a necessidade de código repetitivo. O **FluentValidation** é utilizado para definir regras de validação nas requisições, contribuindo para um código mais organizado e de fácil manutenção. Para o acesso ao banco de dados, o **Entity Framework Core**, integrado ao **MySQL** por meio do provedor **Pomelo**, permite manipular os dados utilizando objetos .NET, simplificando as operações de persistência.
 
-O projeto também utiliza o **ClosedXML** para a geração e manipulação de arquivos Excel e o **PDFsharp-MigraDoc** para a criação de documentos PDF. Nos testes automatizados, o **xUnit** é responsável pela execução dos testes, enquanto o **Shouldly** torna as verificações mais legíveis. O **Bogus** auxilia na geração de dados fictícios para os testes, e o **Coverlet** permite coletar informações sobre a cobertura do código testado.
+### Features
 
+- **Domain-Driven Design (DDD)**: organização da aplicação em camadas, buscando separar as responsabilidades e facilitar a manutenção e a evolução do código.
+- **Testes unitários**: testes automatizados com xUnit e Shouldly para verificar o comportamento da aplicação e auxiliar na identificação de possíveis erros.
+- **Geração de relatórios**: geração de arquivos **Excel** e documentos **PDF**.
+- **API RESTful com Swagger**: disponibilização de endpoints seguindo os princípios REST, com documentação interativa para visualizar e testar as funcionalidades da API.
