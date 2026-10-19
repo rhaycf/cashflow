@@ -6,6 +6,8 @@ A API segue o padrão **REST**, disponibilizando endpoints para as operações d
 
 Dentre os pacotes NuGet utilizados, o **AutoMapper** facilita o mapeamento entre objetos da aplicação, reduzindo a necessidade de código repetitivo. O **FluentValidation** é utilizado para definir regras de validação nas requisições, contribuindo para um código mais organizado e de fácil manutenção. Para o acesso ao banco de dados, o **Entity Framework Core**, integrado ao **MySQL** por meio do provedor **Pomelo**, permite manipular os dados utilizando objetos .NET, simplificando as operações de persistência.
 
+![](images/relatorioGastos.png)
+
 ### Features
 
 - **Domain-Driven Design (DDD)**: organização da aplicação em camadas, buscando separar as responsabilidades e facilitar a manutenção e a evolução do código.
@@ -31,5 +33,5 @@ Antes de começar, você precisará ter instalado:
     ```sh
     git clone https://github.com/rhaycf/cashflow.git
     ```
-2. COnfigure a conexão com o banco de dados no arquivo `appsettings.Development.json`
+2. Configure a conexão com o banco de dados no arquivo `appsettings.Development.json`
 3. Execute a API
