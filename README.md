@@ -12,3 +12,24 @@ Dentre os pacotes NuGet utilizados, o **AutoMapper** facilita o mapeamento entre
 - **Testes unitários**: testes automatizados com xUnit e Shouldly para verificar o comportamento da aplicação e auxiliar na identificação de possíveis erros.
 - **Geração de relatórios**: geração de arquivos **Excel** e documentos **PDF**.
 - **API RESTful com Swagger**: disponibilização de endpoints seguindo os princípios REST, com documentação interativa para visualizar e testar as funcionalidades da API.
+
+## Getting Started
+
+Siga as etapas abaixo para configurar e executar o projeto localmente.
+
+### Pré-requisitos
+
+Antes de começar, você precisará ter instalado:
+
+- Visual Studio 2022+ ou Visual Studio Code
+- Windows 10+ ou Linux/MacOS com [.NET SDK](https://dotnet.microsoft.com/en-us/download/dotnet/8.0) instalado
+- MySql Server
+
+### Instalação
+
+1. Clone o repositório: 
+    ```sh
+    git clone https://github.com/rhaycf/cashflow.git
+    ```
+2. COnfigure a conexão com o banco de dados no arquivo `appsettings.Development.json`
+3. Execute a API
