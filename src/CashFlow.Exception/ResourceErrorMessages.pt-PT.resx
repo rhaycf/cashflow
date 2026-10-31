@@ -135,4 +135,25 @@
   <data name="EXPENSE_NOT_FOUND" xml:space="preserve">
     <value>Despesa não encontrada.</value>
   </data>
+  <data name="EMAIL_EMPTY" xml:space="preserve">
+    <value>A mensagem de correio eletronico não pode estar vazia.</value>
+  </data>
+  <data name="EMAIL_INVALID" xml:space="preserve">
+    <value>O correio eletronico é inválido.</value>
+  </data>
+  <data name="NAME_EMPTY" xml:space="preserve">
+    <value>O nome não pode estar vazio.</value>
+  </data>
+  <data name="INVALID_PASSWORD" xml:space="preserve">
+    <value>A sua palavra-passe deve ter pelo menos 8 caracteres e incluir pelo menos uma letra maiúscula, uma letra minúscula e um número.</value>
+  </data>
+  <data name="EMAIL_ALREADY_REGISTERED" xml:space="preserve">
+    <value>Esse e-mail já está a ser utilizado.</value>
+  </data>
+  <data name="EMAIL_OR_PASSWORD_INVALID" xml:space="preserve">
+    <value>E-mail e/ou palavra-passe inválidos.</value>
+  </data>
+  <data name="PASSWORD_DIFFERENT_CURRENT_PASSWORD" xml:space="preserve">
+    <value>A palavra-passe introduzida é diferente da palavra-passe atual.</value>
+  </data>
 </root>
